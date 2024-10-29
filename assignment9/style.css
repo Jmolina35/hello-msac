@@ -1,0 +1,45 @@
+body {
+    margin: 0; /* Removes default margin */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text horizontally */
+    background-color: peachpuff;
+}
+
+h1, p {
+    margin: 0; /* Removes default margins */
+    font-size: 50px;
+    color: teal;
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 412px) {
+    h1 {
+        font-size: 48px; /* Medium screen size */
+    }
+
+    p {
+        font-size: 32px; /* Medium screen size */
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 60px; /* Larger screen size */
+    }
+
+    p {
+        font-size: 48px; /* Larger screen size */
+    }
+}
