@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10 Notes</title>
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+        
+        body{
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        h1 {text-align: center;}
+
+        h2 {text-align: center;}
+
+        </style>
+
+       
+    <!--
+   Jonathan Molina
+   Lesson 10 Notes
+   11/3/24
+    -->
+</head>
+<body>
+    <h1>Lesson 22: Using JavaScript Variables, Strings, and Arrays.</h1>
+
+    <p>What You’ll Learn in This Lesson:
+
+        <ul class="w3-ul w3-border">
+
+            <li>How to name, declare, and assign variables</li>
+            <li>How to choose whether to use local or global variables</li>
+            <li>How to convert between different data types</li>
+            <li>How to create and use String objects</li>
+            <li>How to create and use arrays of numbers and strings</li>
+            <li>How to define, call, and return values from functions</li>
+            <li>How to use object properties and values</li>
+            <li>How to define and use object methods</li>
+            <li>How to use the Math object’s methods</li>
+            <li>How to use new and this keywords to work with obje</li>
+            <li>How to use the Date object to work with dates</li>
+
+        </ul>
+
+        <p>JavaScript has a lot of things that make it useful, even as its own language. For example, when you choose a variable name, it is pretty important to follow a few rules and guidelines, like the name can include upper and lowercase letters, numbers and an underscore; the first character must also be a letter; and lastly, there isn't an official limit on how long the name can be, but it is highly recommended that it be at most 1 line long. Another thing that can be achieved is using the keyword "var" to declare a variable. There are other things that can be done with variables that can even be changed to a value. JavaScript can also include different data types. </p>
+
+        <p>Objects are also things that can be used when using JavaScript, these are practically a more complex variables. There are a couple types of variables that can be used depending on what needs to be achieved. There's also a function, which is a group of statements that can be treated as a single unit. And there are arrays, which are number-group units that can be treated as a single unit.
+        </p>
+
+        <table class="w3-table-all w3-bordered">
+            <tr>
+                <th>Operator</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>+</td>
+                <td>Concatenate (combine) strings</td>
+                <td>message = "this is" + " a test";</td>
+            </tr>
+            <tr>
+                <td>+</td>
+                <td>Add</td>
+                <td>result = 5 + 7;</td>
+            </tr>
+            <tr>
+                <td>−</td>
+                <td>Subtract</td>
+                <td>score = score − 1;</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>Multiply</td>
+                <td>total = quantity * price;</td>
+            </tr>
+            <tr>
+                <td>/</td>
+                <td>Divide</td>
+                <td>average = sum / 4;</td>
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>Modulo (remainder)</td>
+                <td>remainder = sum % 4;</td>
+            </tr>
+            <tr>
+                <td>++</td>
+                <td>Increment</td>
+                <td>tries++;</td>
+            </tr>
+            <tr>
+                <td>−−</td>
+                <td>Decrement</td>
+                <td>total−−;</td>
+            </tr>
+        </table>
+        
+        <p>Global variables: The entire script as their scope. Can be used anywhere, even within functions.</p>
+        <p>Local Variables: Have a single function as their scope. They can only be used in the function they were created in.</p>
+         <p>To assign values to variables: use the = sign.</p>
+        <p>Ways to increment and decrement variables: "+=" or "++" are used to increment variables, and "-=" or "--" are used to decrement a variable.</p>
+        <p>JavaScript data types: Number, boolean, string, and null.</p>
+        <p>String Object: Used to represent and manipulate a sequence of characters.</p>
+        <p>Array: Number of group data items that you can treat as a single unit.</p>
+        <p>To return a value from a function, first you need to set up a function, and then you return the value by using the "return" property.</p>
+        <p>Object: A more complex kind of variable that can store multiple data items and functions.</p>
+        <p>Math Object: is a built-in object that includes math constants and functions.</p>
+        <p>Math.ceil: round up a number to the next integer.<br>
+       Math.floor: round a number down to the next integer<br>
+       Math.round: round a number to the nearest integer.
+        </p>
+        <p>Code example to generate a random number:</p>
+        <pre><code>
+            function rand(num) {
+            return Math.floor(Math.random() * num) + 1;
+            }
+         </code></pre>
+    <p>Date Object: A built-in object that enables you to work more easily with dates and times.</p>
+
+    </p>
+    
+</body>
+</html>
